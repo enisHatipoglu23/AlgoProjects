@@ -1,0 +1,17 @@
+*** Merge Sort Aşamaları ***
+
+1. İlk olarak dizi ikiye bölünür.
+
+2. Her iki dizi birer eleman kalacak kadar tekrar bölünür.
+
+3. Sonrasında iki dizi sıralı olacak şekilde tekrar birleştirilir.
+
+4. İki dizinin elemanlarının index numaralarına göre örnek olarak birinci dizinin 0. indexindeki eleman(birinci diziye i ikinci diziye j diyelim.) i[0] ile ikinci dizinin
+0. indexindeki j[0] eleman karşılaştırılır ve küçük olan başa yazılır. Burada küçük olan eleman hangisiyse onun indexi 1 arttırılır.
+Bu şekilde tüm elemanlar kontrol edilir.
+
+5. Tüm elemanlar sıralı bir şekilde yazılmıştır. Merge sort tamamlanmıştır.
+
+*** Big O Notation ***
+     
+    O(n)

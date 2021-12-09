@@ -1,0 +1,18 @@
+*** Binary Search Tree ***
+
+1. İlk değer yani Root değeri eklenir. Bu değer 5 olsun. 
+
+2. İkinci değer eklenir. Bu değer eklenirken root değerinden yani 5'ten büyük mü küçük mü diye bakılır.
+Bu değer büyük ise root değerinin altında sağına eklenir, küçük ise root değerinin altında soluna eklenir. İkinci değer 9 olsun yani root değerinin
+sağına eklendi.
+
+3.Üçüncü değer eklensin, bu değer 7 olsun. Bu sefer 7, 5'ten büyük sağına indi. 9 ile karşılaştırıldı ve 9'dan küçük.
+ Bu yüzden 9'un altında sol tarafına eklendi.
+
+4. Dördüncü değer olarak 3 ekleyelim bu değer de 5'in altında sol tarafa eklenir.
+
+5. Beşinci değer olarak 2 eklersek, bu değerin de 3 değerinin altında sol tarafına eklenmesini bekleriz.
+
+6. Altıncı değer olarak da 15 ekleyelim, bu değer de ikinci değer yani 9'un altında sağ tarafa eklenir.
+
+Böylece binary-search-tree algoritmasını kısaca tanımlamış olduk.
